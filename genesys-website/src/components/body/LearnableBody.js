@@ -24,7 +24,7 @@ const LearnableBody = () => {
                 <picture class="wrapper col-11">
                     <source media="(max-width: 599px)"  srcset={require('../../assets/team_bond_mobile.png')} />
                     <source media="(min-width: 800px)" srcset={require('../../assets/team_bond_desktop.png')} />
-                    <img class="img" src={require('../../assets/team_bond_desktop.png')} />
+                    <img class="img" src={require('../../assets/team_bond_desktop.png')} alt="team bond" />
                 </picture>
             </div>
         </div>
@@ -49,7 +49,7 @@ const LearnableBody = () => {
     </main>
             <section class="flex row section align-center flex-reverse" id="grid-id">
         <div class="col col-img-wrapper center">
-            <img src={require('../../assets/man_rounded_photo.png')} alt="man rounded photo" class="img-fluid" />
+            <img src={require('../../assets/man_rounded_photo.png')} alt="man rounded" class="img-fluid" />
         </div>
         <div class="col">
             <h3>We Make People Great</h3>
