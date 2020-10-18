@@ -1,25 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import LandingPage from './views/LandingPage';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import TopNavigation from './components/header/TopNavigation';
+import Footer from './components/footer/Footer';
+import SoftwareDeveloper from './views/SoftwareDeveloper';
+import Learnable from './views/Learnable';
+import ProductDesign from './views/ProductDesign';
+import ApplyKnowledge from './views/ApplyKnowledge';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <TopNavigation />
+        <Switch>
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
+          <Route path="/SoftwareDeveloper">
+            <SoftwareDeveloper />
+          </Route>
+          <Route path="/ProductDesign">
+            <ProductDesign />
+          </Route>
+          <Route path="/Learnable">
+            <Learnable />
+          </Route>
+          <Route path="/ApplyKnowledge">
+            <ApplyKnowledge />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
