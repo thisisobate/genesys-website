@@ -10,7 +10,7 @@ const LearnableBody = () => {
         </div>
         <div class="col">
             <p>Click link to download...</p>
-            <h2 class="underline navy-blue medium-text"><a href="#">Learnable ‘20 Brochure</a></h2>
+            <h2 class="underline navy-blue medium-text"><a href="/">Learnable ‘20 Brochure</a></h2>
         </div>
     </div>
     <main class="main">
@@ -358,36 +358,36 @@ const LearnableBody = () => {
             </label>
         </div>
         <div class="faq-link center">
-            <a href="#">See More</a>
+            <a href="/">See More</a>
         </div>         
     </section>
     <section class="bg-grey section space-below-medium">
         <div class="txt-box space-below-medium">
             <h2>Journal</h2>
-            <p><a href="#">view all</a></p>
+            <p><a href="/">view all</a></p>
         </div>
         <div class="flex" id="grid-id">
             <div class="col">
                 <img src={require('../../assets/woman_showcase_item.png')} alt="woman showcase item" class="img img-fluid" />
-                <p><a href="codeville">CodeVille</a></p>
+                <p><a href="/">CodeVille</a></p>
                 <h1>Learn Design Thinking like a Pro and Build Projects that People will care about</h1>
                 <p>David Mong, Apr 9, 2020</p>
             </div>
             <div class="col">
                 <img src={require('../../assets/men_playing.png')} alt="men playing like boys" class="img img-fluid" />
-                <p><a href="codeville">CodeVille</a></p>
+                <p><a href="/">CodeVille</a></p>
                 <h1>Learn Design Thinking like a Pro and Build Projects that People will care about</h1>
                 <p>David Mong, Apr 9, 2020</p>
             </div>
             <div class="col">
                 <img src={require('../../assets/laptop_showcase_madrid.png')} alt="laptop showcase madrid" class="img img-fluid" />
-                <p><a href="codeville">CodeVille</a></p>
+                <p><a href="/">CodeVille</a></p>
                 <h1>Learn Design Thinking like a Pro and Build Projects that People will care about</h1>
                 <p>David Mong, Apr 9, 2020</p>
             </div>
             <div class="col">
                 <img src={require('../../assets/man_working_laptop.png')} alt="man working laptop" class="img img-fluid" />
-                <p><a href="codeville">CodeVille</a></p>
+                <p><a href="/">CodeVille</a></p>
                 <h1>Learn Design Thinking like a Pro and Build Projects that People will care about</h1>
                 <p>David Mong, Apr 9, 2020</p>
             </div>

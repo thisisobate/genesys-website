@@ -7,13 +7,13 @@ const Footer = () => {
                 <div class="col flex" id="grid-id">
                     <ul class="col footer-link-mobile">
                         <li><a href="/learnable">BUILD SOFTWARE</a></li>
-                        <li><a href="/agora">DESIGN DIFFERENT</a></li>
-                        <li><a href="/startzone">APPLY YOUR KNOWLEDGE</a></li>
-                        <li><a href="/about">FAQ</a></li>
+                        <li><a href="/design">DESIGN DIFFERENT</a></li>
+                        <li><a href="/ApplyKnowledge">APPLY YOUR KNOWLEDGE</a></li>
+                        <li><a href="/Faq">FAQ</a></li>
                     </ul>
                     <div class="col">
                         <p>Our Local Campus center: Kilometer 7, Enugu/Port Harcourt, Expressway, Centenary City, Enugu. Nigeria</p>
-                        <p><a href="#">GET IN TOUCH</a></p>
+                        <p><a href="/">GET IN TOUCH</a></p>
                     </div>
                 </div>
                 <div class="col flex" id="grid-id">

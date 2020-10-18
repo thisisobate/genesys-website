@@ -6,7 +6,7 @@ const ProductDesignBody = () => {
         <React.Fragment>
             <section class="flex row section align-center flex-reverse" id="grid-id">
                 <div class="col col-img-wrapper center">
-                    <img src={require('../../assets/man_rounded_2.png')} alt="man rounded photo" class="img-fluid" />
+                    <img src={require('../../assets/man_rounded_2.png')} alt="man rounded" class="img-fluid" />
                 </div>
                 <div className="col large-text-x">
                     <h2 class="">The Learnable Product Designer</h2>
