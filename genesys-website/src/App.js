@@ -8,6 +8,8 @@ import SoftwareDeveloper from './views/SoftwareDeveloper';
 import Learnable from './views/Learnable';
 import ProductDesign from './views/ProductDesign';
 import ApplyKnowledge from './views/ApplyKnowledge';
+import Journal from './views/Journal';
+import Faq from './views/Faq';
 
 function App() {
   return (
@@ -29,6 +31,12 @@ function App() {
           </Route>
           <Route path="/ApplyKnowledge">
             <ApplyKnowledge />
+          </Route>
+          <Route path="/Journal">
+            <Journal />
+          </Route>
+          <Route path="/Faq">
+            <Faq />
           </Route>
         </Switch>
         <Footer />

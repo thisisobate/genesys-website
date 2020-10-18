@@ -10,7 +10,8 @@ const Navigation = () => {
                 <li class="space-between-medium"><Link to="/SoftwareDeveloper">DEVELOPER</Link></li>
                 <li class="space-between-medium"><Link to="/ProductDesign">DESIGN</Link></li>
                 <li class="space-between-medium"><Link to="/ApplyKnowledge">APPLY</Link></li>
-                <li class="space-between-medium"><Link to="/contact">CONTACT</Link></li>
+                <li class="space-between-medium"><Link to="/Journal">JOURNAL</Link></li>
+                <li class="space-between-medium"><Link to="/Faq">FAQ</Link></li>
             </ul>
         </nav>
     )

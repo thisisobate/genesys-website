@@ -361,7 +361,7 @@ const LearnableBody = () => {
             <a href="#">See More</a>
         </div>         
     </section>
-    <section class="bg-grey section">
+    <section class="bg-grey section space-below-medium">
         <div class="txt-box space-below-medium">
             <h2>Journal</h2>
             <p><a href="#">view all</a></p>

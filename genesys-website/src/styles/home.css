@@ -9,15 +9,6 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
-/* input:active {
-    background: rgba(4, 4, 4, 0.1);
-    box-shadow: none;
-}
-  
-.input:focus {
-outline: none;
-background: rgba(4, 4, 4, 0.1);
-} */
 
 .wrapper {
   width: 100%;
@@ -64,6 +55,9 @@ background: rgba(4, 4, 4, 0.1);
 }
 .container > h2 {
   max-width: 55%;
+}
+.journal-btn {
+  margin-right: 17%;
 }
 .container-fluid {
   padding: 0 170px 80px 170px;
@@ -253,9 +247,6 @@ background: rgba(4, 4, 4, 0.1);
 }
 .light-green {
   color: #03cea4;
-}
-.form {
-  /* justify-content: space-between; */
 }
 input[type='email'] {
   background-color: transparent;
@@ -481,6 +472,9 @@ input[type='email'] {
     flex-direction: column;
     text-align: center;
     row-gap: 30px;
+  }
+  .journal-btn {
+    margin-right: 0;
   }
   .row {
     flex-wrap: nowrap;
