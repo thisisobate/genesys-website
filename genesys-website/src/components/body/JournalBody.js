@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../footer/Banner';
 
-const JournaleBody = () => {
+const JournalBody = () => {
     return (
         <React.Fragment>
             <section class="flex row bg-grey section align-center flex-reverse" id="grid-id">
@@ -83,4 +83,4 @@ const JournaleBody = () => {
     )
 }
 
-export default JournaleBody;
+export default JournalBody;
