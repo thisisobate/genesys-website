@@ -173,6 +173,9 @@ body {
 .space-below-medium {
   margin-bottom: 70px;
 }
+.space-below-large {
+  margin-bottom: 170px;
+}
 .large-text > h1 {
   font-weight: 900;
   font-size: 60px;
@@ -208,6 +211,9 @@ body {
 }
 .bg-white {
   background-color: #ffffff;
+}
+.white {
+  color: #ffffff;
 }
 .bg-navy-blue {
   background-color: #17255a;
@@ -456,6 +462,9 @@ input[type='email'] {
 /* Mobile Devices - Phones*/
 
 @media only screen and (max-width: 786px) {
+  #faq-container {
+    margin-bottom: 70px;
+  }
   #devstudio-box {
     display: none;
     width: 0;
